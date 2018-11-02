@@ -1,0 +1,24 @@
+{
+  "name": "fcm-push-notifier",
+  "description": "Small script to trigger an FCM push notification to a specific device or channel.",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "env-cmd .env node push"
+  },
+  "dependencies": {
+    "env-cmd": "^8.0.2",
+    "fcm-push": "^1.1.3"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Reme Le Hane",
+    "email": "info@remelehane.me",
+    "url": "https://www.remelehena.me"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "fcm", "node", "push notifications", "firebase cloud messaging", "firebase"
+  ]
+}
